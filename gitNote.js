@@ -48,3 +48,7 @@ git push "remote_name" "local_branchname"
 A B 都複製遠端master.
 AB 修改同個檔案, A先 push. 此時 B再push就會有衝突
 
+投影片解法
+1. pull 回來
+2. merge 
+3. push
