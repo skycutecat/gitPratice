@@ -32,3 +32,19 @@ git diff // 比較上次commit 之後差異
 git diff -p
 
 gti tag "versionName"
+
+
+git branch --set-upstream branch
+// 遠端branch 將一個已存在的 branch 設定成 tracking 遠端的branch。
+
+git push // 若有預設的遠端 branch 就可以直接commit
+
+git push "remote_name" "local_branchname"
+
+
+
+//遇到衝突如何處理
+
+A B 都複製遠端master.
+AB 修改同個檔案, A先 push. 此時 B再push就會有衝突
+
