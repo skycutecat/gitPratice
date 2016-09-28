@@ -71,3 +71,9 @@ git push
 Question:
 movie , 1:10:20  miles 所使用的 command ui 是什麼？ 因為可以詳細的出現git condiotion
 
+
+git zsh setting
+PROMPT="$POWERLINE_SEC1_BG$POWERLINE_SEC1_TXT $POWERLINE_USER_NAME %k%f$POWERLINE_SEC1_FG%K{blue}"$'\ue0b0'"%k%f%F{white}%K{blue} "$POWERLINE_PATH"%F{blue}"$POWERLINE_GIT_INFO_LEFT" %k"$'\ue0b0'"%f "
+
+
+PROMPT="%k%f%F{white}%K{blue}"$POWERLINE_CURRENT_PATH"%F{blue}"$POWERLINE_GIT_INFO_LEFT" %k"$'\ue0b0'"%f "
