@@ -52,9 +52,22 @@ AB 修改同個檔案, A先 push. 此時 B再push就會有衝突
 1. pull 回來
 2. merge
 3. push
+但是 但是 但是 很重要所以說三次. 若是剛好好死不死修改到同個檔案, 那就要負責做處理動作.
+git fetch  //查看衝突狀況
+git status //看看哪個檔案衝突
+之後編輯檔案處理衝突狀況
+git add  file
+git commit file
+git push
+順序大概就是這樣
 
 
 需要再加以理解的部分：
 1. fetch/clone vs pull
 2. local  git branch:  master vs branch, 為什麼bracn 異動檔案切換至 master,切換內容仍會連動
 3. pull  =  fetch + merge, 此時遇到衝突要如何處理呢？
+4. workspace 如何與 當前branch complare?  git log? (想知道哪些檔案被異動)
+
+Question:
+movie , 1:10:20  miles 所使用的 command ui 是什麼？ 因為可以詳細的出現git condiotion
+
